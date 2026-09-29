@@ -25,3 +25,7 @@ override.tf.json
 .env
 *.pem
 *.key
+
+# Terraform state files anywhere in the repository
+terraform.tfstate
+terraform.tfstate.*
